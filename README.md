@@ -61,4 +61,9 @@ P0001,2025-01-01 00:01:00+00:00,65.6,184.2,16.4,67.2,174.2,sleep
 - **Structured Format**: `Id` as the primary grouping key.
 
 ---
+<<<<<<< HEAD
 *Created for FitPulse Project - Milestone 1*
+=======
+
+# FitPulse-Health-Anomaly-Detection-from-Fitness-Devices
+>>>>>>> f58501212036472bd215f82e09a8726b1e4f62d5
