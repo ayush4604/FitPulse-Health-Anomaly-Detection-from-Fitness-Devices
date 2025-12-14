@@ -46,7 +46,7 @@ To prepare the data for time-series analysis, we aligned all metrics to a **1-mi
 
 ## 📊 Key Insights & Outputs
 **Final Data Structure:**
-The processed dataset (`cleaned_fitness_data_1min.csv`) is now strictly aligned to 1-minute logic for every user.
+The processed dataset (`cleaned_fitness_data.csv`) is now strictly aligned to 1-minute logic for every user.
 
 **Sample Output:**
 ```csv
