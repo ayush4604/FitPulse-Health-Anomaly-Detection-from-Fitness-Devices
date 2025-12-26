@@ -50,9 +50,7 @@ The primary objective of Milestone 2 is to derive meaningful insights from the p
 - **Anomalies**: Prophet successfully identifies spikes in heart rate that deviate from the expected baseline trend.
 - **User Groups**: Clustering reveals distinct groups of activity patterns, likely corresponding to different activity levels (e.g., sedentary vs. active periods).
 
-## Screenshots of Outputs
 
-*(Please add screenshots of your Prophet forecast graph and PCA Cluster plot here after running the notebook)*
 
 ---
 **How to Run**:
