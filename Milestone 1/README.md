@@ -1,9 +1,9 @@
 # FitPulse: Health Anomaly Detection (Milestone 1)
 
-## 📌 Objective
+##  Objective
 The primary objective of this milestone is to **ingest, clean, and preprocess wearable device data** (Heart Rate, Steps, Sleep, Calories) to establish a high-quality foundation for **Health Anomaly Detection**. By normalizing timestamps and aligning all metrics to a consistent 1-minute frequency, we enable granular analysis of user physiological patterns.
 
-## 📂 Dataset Source
+## Dataset Source
 **Dataset Name**: FitPulse Wearable Device Data  
 **Source**: [Kaggle - sanket28/fitpulse-wearable-device-data-csv](https://www.kaggle.com/datasets/sanket28/fitpulse-wearable-device-data-csv)  
 **Description**: Contains time-series data from smart health devices, including metrics like:
@@ -14,7 +14,7 @@ The primary objective of this milestone is to **ingest, clean, and preprocess we
 - `sleep_tracking`: Sleep status/stage.
 - `activity_status`: Activity classification (Resting, Exercise, etc.).
 
-## 🛠️ process & Steps Performed
+##  process & Steps Performed
 We implemented a robust data cleaning pipeline using **Python**.
 
 ### 1. Data Loading & Inspection
@@ -36,17 +36,13 @@ To prepare the data for time-series analysis, we aligned all metrics to a **1-mi
 - **Categorical Metrics** (Sleep, Activity Status): Applied **Forward-Fill (Pad)** logic to propagate the last known state.
 - **Backfilling**: Handled edge cases (e.g., missing initial values) to ensuring zero null values in the final output.
 
-## 🧰 Tools & Technologies Used
+##  Tools & Technologies Used
 - **Python**: Core programming language.
 - **Pandas**: Data manipulation, time-series resampling, and merging.
 - **NumPy**: Numerical operations.
 - **KaggleHub**: Dataset acquisition.
 - **Matplotlib / Seaborn** (Future milestones): For visualization and exploratory data analysis (EDA).
 - **Google Colab / Jupyter**: Development environment.
-
-## 📊 Key Insights & Outputs
-**Final Data Structure:**
-The processed dataset (`cleaned_fitness_data_1min.csv`) is now strictly aligned to 1-minute logic for every user.
 
 **Sample Output:**
 ```csv
@@ -57,7 +53,3 @@ P0001,2025-01-01 00:01:00+00:00,65.6,184.2,16.4,67.2,174.2,sleep
 
 
 ---
-
-
-
-
