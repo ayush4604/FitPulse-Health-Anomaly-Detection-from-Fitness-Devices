@@ -55,4 +55,4 @@ The primary objective of Milestone 2 is to derive meaningful insights from the p
 ---
 **How to Run**:
 1. Install dependencies: `pip install -r requirements.txt`
-2. Run the notebook: `Milestone2_Analysis.ipynb`
+2. Run the notebook: `milestone2.ipynb`
